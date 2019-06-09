@@ -15,4 +15,6 @@ Start the client socket first then the server socket in a command prompt
 ClientSocket -a 192.168.1.112 -p 16815
 ServerSocket -a 192.168.1.112 -p 16815 
 ```
+Note : _For this application to work, don't forget to add the folder Assets in the same 
+directory as the currently running server socket application._
 
