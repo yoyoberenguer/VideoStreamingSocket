@@ -10,7 +10,10 @@ You will need the following python libraries install on your system if you are t
 4. lz4          # for compression
 ```
 
-Start the client socket first then the server socket in a command prompt
+Start the client socket first then the server socket in a command prompt. 
+
+Your firewall may display a message in order to allow the socket to run on your system, 
+allow the present connection for both
 ```
 ClientSocket -a 192.168.1.112 -p 16815
 ServerSocket -a 192.168.1.112 -p 16815 
