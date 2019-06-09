@@ -11,7 +11,6 @@ You will need the following python libraries install on your system if you are t
 ```
 
 Start the client socket first then the server socket in a command prompt. 
-
 Your firewall may display a message in order to allow the socket to run on your system, 
 allow the present connection for both
 ```
