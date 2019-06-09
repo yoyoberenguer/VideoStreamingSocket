@@ -12,7 +12,7 @@ You will need the following python libraries install on your system if you are t
 
 Start the client socket first then the server socket in a command prompt. 
 Your firewall/anti-virus may display a message in order to allow the socket to run on your system, 
-please allow the connection for both program
+please allow the connection for both sockets.
 ```
 ClientSocket -a 192.168.1.112 -p 16815
 ServerSocket -a 192.168.1.112 -p 16815 
@@ -22,7 +22,7 @@ directory as the currently running server socket application._
 
 On the server side:
 
-1. The Surface to process is halfed in order to limit the quantity of bytes to transfer.
+1. Process Surface is halfed in order to limit the quantity of bytes to transfer.
 2. Server dataframe are encoded with LZ4 algo before being send to the client. 
 
 On the client side: 
