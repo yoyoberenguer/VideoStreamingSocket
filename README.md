@@ -21,13 +21,13 @@ ServerSocket -a 192.168.1.112 -p 16815
 *Note* : _For this application to work, don't forget to add the folder Assets in the same 
 directory as the currently running server socket application._
 
-Processes on the server side:
+Tasks on the server side:
 
 1. Surface is halfed in order to limit the quantity of bytes to transfer throughout the network.
 2. Server dataframe are encoded with LZ4 algo before being send to the client.
 3. Display the surface onto the screen
 
-Processes on the client side: 
+Tasks on the client side: 
 
 1. The data are collected and decompress when all the packets have been collected. 
 2. Surface is build with the function pygame.image.frombuffer 
