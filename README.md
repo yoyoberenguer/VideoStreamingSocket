@@ -1,5 +1,4 @@
-## Video and sound streaming through a TCP socket (client/server application)
-
+## Video and sound streaming through a TCP socket
 This algorithm written in python is showing how to transfer a video and sound data over a tcp socket connection.
 
 You will need the following python libraries install on your system if you are trying to run the code from source.
