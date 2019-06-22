@@ -1,4 +1,4 @@
-## Video and sound streaming through a tcp socket (client/server application)
+## Video and sound streaming through a TCP socket (client/server application)
 
 This algorithm written in python is showing how to transfer a video and sound data over a tcp socket connection.
 
